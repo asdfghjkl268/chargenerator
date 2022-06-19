@@ -1,5 +1,5 @@
 from aiogram import Bot, Dispatcher, executor, types
-from settling import tok
+import settings.prop
 
 bot = Bot(token=tok)
 dp = Dispatcher(bot)
