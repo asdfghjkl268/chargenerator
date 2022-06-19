@@ -1,6 +1,5 @@
 from aiogram import Bot, Dispatcher, executor, types
-import settings.prop
-from settings import toks
+from settings.prop import tok
 
 bot = Bot(token=tok)
 dp = Dispatcher(bot)
