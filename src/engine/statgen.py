@@ -1,10 +1,13 @@
 import random
 
 def generate_list():
-	a[10, 10, 10, 10, 10, 10]
-	for i in a:
-		t[0, 0, 0, 0]
-		for i in t:
-			t[i]= random.randint(1, 6)
-		a[i]=sum(t)-min(t)
+	a=[]
+	for i in range(0, 6):
+		t=[]
+		for i in range(0, 4):
+			t.append(random.randint(1, 6))
+		print(t)
+		a.append(sum(t)-min(t))
 	return a
+
+print(generate_list())
