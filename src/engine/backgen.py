@@ -1,7 +1,7 @@
 import random
 
 
-def background(tabnum = 0):
+def background(tabnum = 1):
 	with open('resources/'+str(tabnum)+'.txt') as f:
 		arr = f.readlines()
 	tmp = arr[random.randint(0, len(arr)-1)]
