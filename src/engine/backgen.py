@@ -13,5 +13,3 @@ def background(tabnum = 1):
 
 	
 
-
-print (background())
