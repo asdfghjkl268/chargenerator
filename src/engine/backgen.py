@@ -10,6 +10,3 @@ def background(tabnum = 1):
 		return tmp
 	else:
 		return tmp[:-2]  + background(int(tarr[len(tarr)-1]))
-
-	
-
