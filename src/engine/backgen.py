@@ -2,7 +2,7 @@ import random
 
 
 def background(tabnum = 1):
-	with open('resources/'+str(tabnum)+'.txt') as f:
+	with open('resources/backstorytables/'+str(tabnum)+'.txt') as f:
 		arr = f.readlines()
 	tmp = arr[random.randint(0, len(arr)-1)]
 	tarr=tmp.split(".")
