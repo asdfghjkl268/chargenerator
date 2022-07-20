@@ -1,0 +1,33 @@
+{
+	"raceName":"",
+	"prof":{
+		"value":{
+			"data":{
+				"type":"doc",
+				"content":[
+					{"type":"paragraph","content":[{"type":"text","text":""}]}
+				]
+			}
+		}
+	},
+	"traits":{
+		"value":{
+			"data":{
+				"type":"doc",
+				"content":[
+					{"type":"paragraph","content":[{"type":"text", "lvl":0, "text":""}]}
+				]
+			}
+		}
+	},
+	"spells-level-0":{
+		"value":{
+			"data":{
+				"type":"doc",
+				"content":[
+					{"type":"paragraph","content":[{"type":"text","text":""}]}
+				]
+			}
+		}
+	},
+}

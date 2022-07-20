@@ -17,3 +17,6 @@ def stats(order):
 	for i in range(0, 6):
 		t[order[i]]=a[i]
 	return t
+
+def mod(a):
+	return int((a-10)/2)
